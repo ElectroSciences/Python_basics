@@ -1,0 +1,6 @@
+name = input("what's your name?")
+surname = input("surname")
+name.upper()
+surname.upper()
+length = int(len(name) + len(surname))
+print("hello %s %s your name is %d char long" % (name, surname, length))
